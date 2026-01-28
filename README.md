@@ -1,5 +1,7 @@
 # FFT-based Appearance Adaptation
-Reference implementation for the method described in the paper "FFT-based Appearance Adaptation for the Semantic Segmentation of Small-scale Aerial Image Datasets" to be published at [ICMV 2025](https://icmv.org/). It builds on our previous work, [SegForestNet](https://github.com/gritzner/SegForestNet). Please cite our paper if you use anything from this repository, even features that are not documented in this or the previous paper, e.g., vector quantization, a DCT side-channel, skip connections that jump over our model's decoders, etc. We will update this citation once the proceedings are actually available.
+Reference implementation for the method described in the paper "FFT-based Appearance Adaptation for the Semantic Segmentation of Small-scale Aerial Image Datasets" to be published at [ICMV 2025](https://icmv.org/). It builds on our previous work, [SegForestNet](https://github.com/gritzner/SegForestNet). The successor to this work is available [here](https://github.com/gritzner/BSPDA).
+
+Please cite our paper if you use anything from this repository, even features that are not documented in this or the previous paper, e.g., vector quantization, a DCT side-channel, skip connections that jump over our model's decoders, etc. We will update this citation once the proceedings are actually available.
 
 ```bibtex
 @inproceedings{gritzner2025icmv,

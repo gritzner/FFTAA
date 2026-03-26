@@ -1,13 +1,15 @@
 # FFT-based Appearance Adaptation
-Reference implementation for the method described in the paper "FFT-based Appearance Adaptation for the Semantic Segmentation of Small-scale Aerial Image Datasets" to be published at [ICMV 2025](https://icmv.org/). It builds on our previous work, [SegForestNet](https://github.com/gritzner/SegForestNet). The successor to this work is available [here](https://github.com/gritzner/BSPDA).
+Reference implementation for the method described in the paper "FFT-based Appearance Adaptation for the Semantic Segmentation of Small-scale Aerial Image Datasets" published at [ICMV 2025](https://icmv.org/). It builds on our previous work, [SegForestNet](https://github.com/gritzner/SegForestNet). The successor to this work is available [here](https://github.com/gritzner/BSPDA).
 
 Please cite our paper if you use anything from this repository, even features that are not documented in this or the previous paper, e.g., vector quantization, a DCT side-channel, skip connections that jump over our model's decoders, etc. We will update this citation once the proceedings are actually available.
 
 ```bibtex
-@inproceedings{gritzner2025icmv,
-  title={FFT-based Appearance Adaptation for the Semantic Segmentation of Small-scale Aerial Image Datasets},
-  author={Gritzner, Daniel and Ysker, Sven and Ostermann, Jörn},
-  booktitle={To appear in the Proceedings of the Eighteenth International Conference on Machine Vision (ICMV 2025)},
+@inproceedings{gritzner2026fft,
+  title={FFT-based appearance adaptation for the semantic segmentation of small-scale aerial image datasets},
+  author={Gritzner, Daniel and Ysker, Sven and Ostermann, J{\"o}rn},
+  booktitle={Eighteenth International Conference on Machine Vision (ICMV 2025)},
+  volume={14114},
+  pages={150--159},
   year={2026},
   organization={SPIE}
 }
